@@ -172,4 +172,5 @@ class FBAMatting(FBA):
             masks = thread_pool_processing(lambda x: self.data_postprocessing(output_cpu[x], inpt_trimaps[x]),
                                            range(len(inpt_images)))
             collect_masks += masks
+            collect_masks.save("FBA_MASK.png")
         return collect_masks
