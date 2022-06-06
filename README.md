@@ -5,7 +5,7 @@
 <p align="center">
 <img src="https://github.com/OPHoperHPO/image-background-remove-tool/actions/workflows/master_docker.yaml/badge.svg">
 <img src="https://github.com/OPHoperHPO/image-background-remove-tool/actions/workflows/master.yml/badge.svg">
-<a src="https://colab.research.google.com/github/OPHoperHPO/image-background-remove-tool/blob/master/docs/other/carvekit_try.ipynb">
+<a src="https://colab.research.google.com/drive/1IVYD7_0pZMsnMohg_gFtZZyNDp6ObnJ1?usp=sharing">
 <img src="https://camo.githubusercontent.com/52feade06f2fecbf006889a904d221e6a730c194/68747470733a2f2f636f6c61622e72657365617263682e676f6f676c652e636f6d2f6173736574732f636f6c61622d62616467652e737667"></a>
 
 </p>
@@ -34,7 +34,7 @@ Automated high-quality background removal framework for an image using neural ne
 - Removes background from hairs
 - Easy integration with your code
 
-## ⛱ Try yourself on [Google Colab](https://colab.research.google.com/github/OPHoperHPO/image-background-remove-tool/blob/master/docs/other/carvekit_try.ipynb) 
+## ⛱ Try yourself on [Google Colab](https://colab.research.google.com/drive/1IVYD7_0pZMsnMohg_gFtZZyNDp6ObnJ1?usp=sharing) 
 ## ⛓️ How does it work?
 It can be briefly described as
 1. The user selects a picture or a folder with pictures for processing
