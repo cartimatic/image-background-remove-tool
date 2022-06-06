@@ -38,5 +38,6 @@ class TrimapGenerator(CV2TrimapGenerator):
         filter_mask = prob_filter(mask=mask, prob_threshold=self.prob_threshold)
         trimap = super(TrimapGenerator, self).__call__(original_image, filter_mask)
         new_trimap = prob_as_unknown_area(trimap=trimap, mask=mask, prob_threshold=self.prob_threshold)
+        new_trimap.save("new_trimap.png")
 
         return new_trimap

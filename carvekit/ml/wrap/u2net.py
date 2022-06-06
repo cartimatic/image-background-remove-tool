@@ -97,6 +97,7 @@ class U2NET(U2NETArchitecture):
         predict_np = predict.cpu().data.numpy() * 255
         mask = Image.fromarray(predict_np).convert("L")
         mask = mask.resize(original_image.size, resample=3)
+        mask.save('u2net_mask.png')
         return mask
 
     def __call__(self, images: List[Union[str, pathlib.Path, PIL.Image.Image]]) -> List[PIL.Image.Image]:
